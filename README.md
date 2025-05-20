@@ -1,0 +1,1 @@
+# summer2025-smart-sensor
