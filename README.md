@@ -1,1 +1,1 @@
-# summer2025-smart-sensor
+# Azure-Connected Smart Sensor with Raspberry Pi
