@@ -26,7 +26,7 @@ This project demonstrates how to collect real-world sensor data from a DHT11 tem
 
 ---
 
-## ⚙Wiring Guide
+## Wiring Guide
 
 | DHT11 Pin | Connects to Raspberry Pi |
 |-----------|--------------------------|
@@ -38,7 +38,7 @@ Use a **10kΩ resistor** between VCC and Data for stability.
 
 ---
 
-## 💻 Software Setup
+## Software Setup
 
 1. **Clone this repo:**
    ```bash
