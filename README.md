@@ -37,7 +37,29 @@ This project demonstrates how to collect real-world sensor data from a DHT11 tem
 Use a **10kΩ resistor** between VCC and Data for stability.
 
 ---
+## Real-Time Telemetry Chart Integration
+This project includes a real-time dashboard that visualizes temperature and humidity data from IoT devices.
 
+## Features
+- Live data updates via WebSocket
+- Support for multiple devices
+- Interactive chart using Chart.js
+- Automatic parsing of telemetry payloads, including buffer decoding
+
+## Implementation Details
+- The chart-device-data.js script handles WebSocket messages, decodes buffer payloads, and updates the chart accordingly.
+- Telemetry payloads are decoded from buffers to JSON strings, accommodating single-quoted keys.
+- The chart updates in real-time as new data arrives.
+
+## File Overview
+- chart-device-data.js: Handles WebSocket communication and chart updates.
+- index.html: Contains the HTML structure for the dashboard.
+- styles.css: Styles the dashboard components.
+
+## Live Demo
+To see the dashboard in action, run the application and navigate to http://localhost:3000.
+
+---
 ## Software Setup
 
 1. **Clone this repo:**
