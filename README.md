@@ -58,6 +58,14 @@ This project includes a real-time dashboard that visualizes temperature and humi
 
 ## Live Demo
 To see the dashboard in action, run the application and navigate to http://localhost:3000.
+   - Run the following command to add a consumer group to the built-in endpoint of your IoT hub: az iot hub consumer-group create --hub-name YOUR_IOT_HUB_NAME --name YOUR_CONSUMER_GROUP_NAME
+   - Run the following command to get a connection string for your IoT hub that adheres to the service policy: az iot hub connection-string show --hub-name YOUR_IOT_HUB_NAME --policy-name service
+   - Download or clone the web app sample from GitHub: web-apps-node-iot-hub-data-visualization
+   - open command prompt and enter : set IotHubConnectionString=YOUR_IOT_HUB_CONNECTION_STRING & set EventHubConsumerGroup=YOUR_CONSUMER_GROUP_NAME
+   - Make sure that your device is running and sending data.
+   - In the command window, run the following lines to download and install referenced packages and start the website: npm install & npm start
+   - You should see output in the console that indicates that the web app successfully connected to your IoT hub and is listening on port 3000
+   - Open a browser to http://localhost:3000.
 ![sensor-chart](https://github.com/user-attachments/assets/50ea7bb9-dfa8-42c2-b72a-576b6094d486)
 
 ---
