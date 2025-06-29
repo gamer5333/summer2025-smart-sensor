@@ -58,6 +58,7 @@ This project includes a real-time dashboard that visualizes temperature and humi
 
 ## Live Demo
 To see the dashboard in action, run the application and navigate to http://localhost:3000.
+![sensor-chart](https://github.com/user-attachments/assets/50ea7bb9-dfa8-42c2-b72a-576b6094d486)
 
 ---
 ## Software Setup
